@@ -6,7 +6,9 @@ body{
     padding: 0;
     margin: 0;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 #banner{
     background-color: rgb(7, 0, 12);
     height: 700px;
