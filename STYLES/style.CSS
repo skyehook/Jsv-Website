@@ -1,0 +1,114 @@
+
+@import url(BUTTON.css);
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Jost', sans-serif !important;
+    padding: 0;
+    margin: 0;
+}
+
+#banner{
+    background-color: rgb(7, 0, 12);
+    height: 700px;
+    margin-top: -60px;
+}
+.navbar-brand{
+    margin-left: 70px;
+}
+.navbar-light .navbar-toggler{
+    background-color: rgb(255, 255, 255);
+    margin-right: 40px;
+}
+.bg-light{
+    background-color: transparent !important;
+    margin-top: 60px;
+}
+.navbar-light .navbar-toggler:focus{
+    outline: none;
+}
+.nav-link{
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+    margin-top: 70px;
+    margin-bottom: 20px;
+    margin-left: 15px-;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: orangered;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color:white;
+}
+#caption{
+    font-size: 70px;
+    font-weight: 530;
+    letter-spacing: -3px;
+    line-height: 65px;
+    margin-left: 100px;
+    padding-top: 70px;
+    color: rgb(255, 255, 255);
+}
+#ourservices{
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: center;
+} 
+                                    
+#teh{
+   font-weight: 520;
+    color: rgb(102, 20, 179);
+}
+#tagline{
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    margin-left: 100px;
+}
+#imgt{
+    width: 450px;
+    float: right;
+    margin-top: -440px;
+    margin-right: 70px;
+}
+
+/* qUERIES */
+@media only screen and (max-width:767px) {
+
+    #caption {
+       font-size: 50px;
+       margin-left: 40px;
+       line-height: 60px;
+    }
+    #banner{
+        height: 1060px;
+    }
+    #knowus{
+        display: block;
+    }
+    #tagline{
+        font-size: 18px;
+        margin-left: 40px;
+    }
+    #imgt{
+     margin-top: 70px;
+     margin-right: 125px;
+     width: 250px;
+    }
+    .nav-link{
+        margin-left: 40px;
+        margin-top: 10px;
+    }        
+
+      /* buttons */
+      #knowus {
+         margin-top: 5px;
+         margin-left: 40px;
+      }
+      #getstarted {
+         margin-top: 5px;
+         margin-left: 40px;
+      }
+}
