@@ -81,4 +81,20 @@
 .btn-secondary:focus {
     outline: none;
 }
-
+/* Buy now */
+#buynow{
+    background-color: orangered;
+    width: 120px;
+    border-radius: 50px;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+    height: 40px;
+}
+#buynow:hover{
+    background-color: rgb(0, 0, 0);
+  }
+#buynow:focus{
+ outline: none;
+}
