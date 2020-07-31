@@ -11,19 +11,21 @@ html{
 }
 #banner{
     background-color: rgb(7, 0, 12);
-    height: 700px;
+    height: 730px;
     margin-top: -60px;
 }
 .navbar-brand{
     margin-left: 70px;
+    margin-top: 80px;
 }
 .navbar-light .navbar-toggler{
     background-color: rgb(255, 255, 255);
     margin-right: 40px;
+    margin-top: 70px;
 }
 .bg-light{
     background-color: transparent !important;
-    margin-top: 60px;
+    margin-top: 0px;
 }
 .navbar-light .navbar-toggler:focus{
     outline: none;
@@ -31,9 +33,10 @@ html{
 .nav-link{
     font-size: 19px;
     color: rgb(255, 255, 255);
-    margin-top: 70px;
+    padding-top: 30px;
+    margin-top: 90px;
     margin-bottom: 20px;
-    margin-left: 15px-;
+    margin-left: 20x;
 }
 .navbar-light .navbar-nav .nav-link:hover {
     color: orangered;
@@ -44,6 +47,55 @@ html{
 .navbar-light .navbar-nav .active>.nav-link{
     color:white;
 }
+/* Icons */
+.whatsapp{
+    font-size: 50px;
+
+    color: white;
+}
+.serviceicon{
+    font-size: 80px;
+   color: orangered;
+}
+.roundcircle{
+    width: 90px;
+    padding: 20px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    background-color: orangered;
+    transition: ease-in-out 1s;
+}
+.roundcircle:hover{
+ background-color: rgb(0, 0, 0);
+}
+.stick {
+    z-index: 9999;
+    position: fixed;
+    padding-left: 90px ;
+    top: 590px;
+    left: 0;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+
+}
+.services{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: rgb(7, 0, 12);
+}
+.ourservices{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 70px;
+    color: white;
+    letter-spacing: -2px;
+}
+/* }Texts */
+.repair{
+    color: white;
+    text-align: center;
+}
 #caption{
     font-size: 70px;
     font-weight: 530;
@@ -52,6 +104,32 @@ html{
     margin-left: 100px;
     padding-top: 70px;
     color: rgb(255, 255, 255);
+}
+.address{
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+.addressbox{
+    padding-bottom: 20px;
+}
+.phone{
+    text-align: center;
+}
+.location{
+    font-size: 32px;
+    vertical-align: middle;
+}
+.phone{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 80px;
+}
+.call{
+    vertical-align: middle;
+    font-size: 32px;
 }
 #ourservices{
     margin-top: 50px;
@@ -84,8 +162,16 @@ html{
        margin-left: 40px;
        line-height: 60px;
     }
+    .padded{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .paddedmar{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
     #banner{
-        height: 1060px;
+        height: 1120px;
     }
     #knowus{
         display: block;
@@ -102,7 +188,11 @@ html{
     .nav-link{
         margin-left: 40px;
         margin-top: 10px;
-    }        
+    }
+    .stick{
+        margin-left: 0px;
+        margin-top: -20px;
+    }    
 
       /* buttons */
       #knowus {
@@ -112,5 +202,12 @@ html{
       #getstarted {
          margin-top: 5px;
          margin-left: 40px;
+      }
+      /* icons */
+      .whatsapp{
+          margin-top: 0px;
+      }
+      .roundcircle{
+          height: ;
       }
 }
